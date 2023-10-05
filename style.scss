@@ -4,68 +4,61 @@
     margin: 0;
 }
 
-.lilcsi-one {
-    background-color: #d63384;
-    width: 100vw;
-    height: 25vh;
-    &-text {
-        font-family: 'Borel', cursive;
-        font-size: 3rem;
-    }
-}
-
 p {
     font-family: 'Itim', cursive;
     font-size: 1.3rem;
     padding: 0.5rem;
 }
 
-.lilcsi-two {
-    background-color: #fbbcee;
+.lilcsi {
+    &-one {
+        background-color: #d63384;
+        width: 100vw;
+        height: 25vh;
+        &-text {
+            font-family: 'Borel', cursive;
+            font-size: 3rem;
+        }
+    }
+    &-two {
+        background-color: #fbbcee;
+    }
+    &-three {
+        background-color: #fab4c8;
+    }
+    &-four {
+        background-color: #f78ecf;
+    }
+    &-five {
+        background-color: #cfb9f7;
+    }
+    &-six {
+        background-color: #e0cefd;
+    }
+    &-seven {
+        background-color: #a480f2;
+    }
+    &-eight {
+        background-color: #d4b0f9;
+    }
+    &-nine {
+        background-color: #c580ed;
+    }
 }
 
-.lilcsi-three {
-    background-color: #fab4c8;
-}
-
-.lilcsi-four {
-    background-color: #f78ecf;
-}
-
-.lilcsi-five {
-    background-color: #cfb9f7;
-}
-
-.lilcsi-six {
-    background-color: #e0cefd;
-}
-
-.lilcsi-seven {
-    background-color: #a480f2;
-}
-
-.lilcsi-eight {
-    background-color: #d4b0f9;
-}
-
-.lilcsi-nine {
-    background-color: #c580ed;
-}
-
-.second {
-    max-height: 15%;
-}
-
-.third {
-    max-height: 25%;
-}
-
-.fourth {
-    max-height: 25%;
-}
-
-.fifth {
-    max-height: 10%;
+.container-fluid {
+    .second {
+        max-height: 15%;
+    }
+    .third {
+        max-height: 25%;
+    }
+    .fourth {
+        max-height: 25%;
+    }
+    .fifth {
+        max-height: 10%;
+    }
 }
 
 .icon-fb:hover {
@@ -82,38 +75,14 @@ img {
 }
 
 @media only screen and (max-width: 998px) {
-    .lilcsi-two {
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .lilcsi-three {
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .lilcsi-four {
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .lilcsi-five {
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .lilcsi-six {
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .lilcsi-seven {
-        max-height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    .lilcsi-eight {
+    .lilcsi-two
+        .lilcsi-three
+        .lilcsi-four
+        .lilcsi-five
+        .lilcsi-six
+        .lilcsi-seven
+        .lilcsi-eight
+        .lilcsi-nine {
         max-height: 100%;
         display: flex;
         flex-direction: column;
