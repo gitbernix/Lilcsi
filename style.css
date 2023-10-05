@@ -6,6 +6,7 @@
 
 .lilcsi-one {
   background-color: #d63384;
+  width: 100vw;
   height: 25vh;
 }
 .lilcsi-one-text {
@@ -15,6 +16,8 @@
 
 p {
   font-family: "Itim", cursive;
+  font-size: 1.3rem;
+  padding: 0.5rem;
 }
 
 .lilcsi-two {
@@ -50,19 +53,19 @@ p {
 }
 
 .second {
-  height: 15vh;
+  max-height: 15%;
 }
 
 .third {
-  height: 25vh;
+  max-height: 25%;
 }
 
 .fourth {
-  height: 25vh;
+  max-height: 25%;
 }
 
 .fifth {
-  height: 10vh;
+  max-height: 10%;
 }
 
 .icon-fb:hover {
@@ -74,8 +77,46 @@ p {
 }
 
 img {
-  width: 40%;
+  max-width: 40%;
   border-radius: 10%;
+}
+
+@media only screen and (max-width: 998px) {
+  .lilcsi-two {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lilcsi-three {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lilcsi-four {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lilcsi-five {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lilcsi-six {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lilcsi-seven {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .lilcsi-eight {
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
